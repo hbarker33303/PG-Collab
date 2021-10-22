@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://www.iberdrola.com/wcorp/gc/prod/en_US/comunicacion/adaptacion_cambio_climatico_mult_1_res/Adaptacion_746x419.jpg");
+    background-repeat: repeat-x;
+    background-color: goldenrod;
+    background-attachment: fixed;
+}    
+ul {
+    list-style-type: none;
+    margin: 100;
+    padding: 0;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+  li a {
+    display: block;
+    width: 60px;
+  }
+h1 {
+    
+    color:forestgreen;
+    margin-top: 20px;
+    text-align: center;
+    font-family: wingdings;
+    
+}
+    
+
+p {
+        color: rgb(128, 0, 85);
+    }
+h2 {
+    color: blue;
+    text-align: right;
+    font-family: sans-serif;
+    margin-right: 1px;
+}
+h3 {
+    border: dotted;
+    border-color: hotpink;
+    background-image: url("https://www.irena.org/-/media/Images/IRENA/Agency/Topics/Climate-Change/Topics_Banners_Climate-Change.jpg?la=en&hash=8C423B56A620EB0E4B825A222215D11A4A117431");
+    color: firebrick;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color:black;
+    text-align: center;
+    font-family: papyrus;
+}
