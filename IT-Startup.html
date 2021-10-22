@@ -3,101 +3,118 @@
 <html>
 
 <head>
-  <title>IT start up</title>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="IT-Startup.css" IT-Startup.css"">
+    <title>IT start up</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="IT-Startup.css" IT-Startup.css"">
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
-  <h1 class="head1">IT start-up company</h1>
-  <p class="hyper"><a href="https://www.google.com">For searching specific information about computing languages</a></p>
-  <br>
-
-
-  <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-
-
-
-  <form action="process/addUser" method="post">
-    <h3> Log in </h3>
-
+    <h1 class="head1">IT start-up company</h1>
+    <p class="hyper"><a href="https://www.google.com">For searching specific information about computing languages</a>
+    </p>
+    <br>
 
 
     <nav class="navbar navbar-light bg-light">
-      <form class="container-fluid">
-        <div class="input-group">
-          <span class="input-group-text" id="basic-addon1">@</span>
-          <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-            aria-describedby="basic-addon1">
-          <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-            <option selected>Select type</option>
-            <option value="1">Email</option>
-            <option value="2">Username</option>
-            <option value="3">phoneNumber</option>
-          </select>
+        <div class="container-fluid">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
         </div>
-      </form>
     </nav>
 
 
-    <nav class="navbar navbar-light bg-light">
-      <form class="container-fluid">
-        <div class="input-group">
-          <span class="input-group-text" id="basic-addon1">🔒</span>
-          <input type="text" class="form-control" placeholder="Passport" aria-label="Passport"
-            aria-describedby="basic-addon1">
-        </div>
-      </form>
-    </nav>
 
-    <input class="btn btn-primary" type="submit" value="Submit">
+    <form action="process/addUser" method="post">
+        <h3> Log in </h3>
 
-  </form>
 
-  <br>
-  <p1 id="pp"> Languages we provide </p1>
-  <ul id="list1">
-    <li>C</li>
-    <li>C++</li>
-    <li>Java</li>
-    <li>Python</li>
-  </ul>
-  <h2 id="table"> specific information we provide </h2>
-  <table border="2px" bordercolor="lightred" bgcolor="white" width="500" height="500" text-align="center">
-    <tr>
-      <td> <b>the type of languages</b> </td>
-      <td> <b>price</b> </td>
-      <td> <b>time</b></td>
-    </tr>
-    <tr>
-      <td> C </td>
-      <td> $20 </td>
-      <td> 1hour </td>
-    </tr>
-    <tr>
-      <td> C++ </td>
-      <td> $15 </td>
-      <td> 50min </td>
-    </tr>
-    <tr>
-      <td> Java </td>
-      <td> $25 </td>
-      <td> 1h 30m </td>
-    </tr>
-    <tr>
-      <td> Python </td>
-      <td> $10 </td>
-      <td> 45min </td>
-    </tr>
 
-  </table>
+        <nav class="navbar navbar-light bg-light">
+            <form class="container-fluid">
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                        <option selected>Select type</option>
+                        <option value="1">Email</option>
+                        <option value="2">Username</option>
+                        <option value="3">phoneNumber</option>
+                    </select>
+                </div>
+            </form>
+        </nav>
+
+
+        <nav class="navbar navbar-light bg-light">
+            <form class="container-fluid">
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">🔒</span>
+                    <input type="text" class="form-control" placeholder="Passport" aria-label="Passport"
+                        aria-describedby="basic-addon1">
+                </div>
+            </form>
+        </nav>
+
+        <input class="btn btn-primary" type="submit" value="Submit">
+
+    </form>
+
+    <br>
+    <p1 id="pp"> Languages we provide </p1>
+    <ul id="list1">
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Python</li>
+    </ul>
+    <h2 id="table"> specific information we provide </h2>
+    <table border="2px" bordercolor="lightred" bgcolor="white" width="500" height="500" text-align="center">
+        <tr>
+            <td> <b>the type of languages</b> </td>
+            <td> <b>price</b> </td>
+            <td> <b>time</b></td>
+        </tr>
+        <tr>
+            <td> C </td>
+            <td> $20 </td>
+            <td> 1hour </td>
+        </tr>
+        <tr>
+            <td> C++ </td>
+            <td> $15 </td>
+            <td> 50min </td>
+        </tr>
+        <tr>
+            <td> Java </td>
+            <td> $25 </td>
+            <td> 1h 30m </td>
+        </tr>
+        <tr>
+            <td> Python </td>
+            <td> $10 </td>
+            <td> 45min </td>
+        </tr>
+
+    </table>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 
 </body>
