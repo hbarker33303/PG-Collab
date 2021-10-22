@@ -1,3 +1,47 @@
 body{
-  background-color: deepskyblue
+  background-image: url(https://wallpapercave.com/wp/wp7802886.jpg);
+  background-position: 500ch;
 }
+
+a {
+  color: goldenrod;
+  font-family: comic sans-serif;
+}
+li{
+  
+}
+h1 {
+  color: red;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100;
+  
+}
+h2 {
+  color: goldenrod;
+}
+h3{
+  color: goldenrod;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p1 {
+  color: rgb(128, 0, 85);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+  color: whitesmoke;
+  font-family: papyrus;
+
+}
+form-control{
+  color: green;
+}
+td {
+  background-color: aquamarine;
+}
+tr {
+  font-family: monospace;
+  font-size: 20px;
+}
+
